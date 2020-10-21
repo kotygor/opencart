@@ -17,7 +17,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-fcb": "3.x-dev"
+            "3.x-dev": "dev-fcb"
         }
     }
 }
