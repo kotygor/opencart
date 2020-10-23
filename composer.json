@@ -1,6 +1,6 @@
 {
 	"name": "kotygor/opencart",
-    "type": "project",
+    "type": "opencart-core",
     "description": "OpenCart",
     "keywords": ["opencart", "ecommerce", "framework", "opensource"],
     "homepage": "http://www.opencart.com",
