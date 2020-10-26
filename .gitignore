@@ -1,50 +1,50 @@
 # Config and Htaccess Files
-/upload/.htaccess
-/upload/config.php
-/upload/admin/config.php
+/www/.htaccess
+/www/config.php
+/www/admin/config.php
 
 # Image File
-!/upload/image/no_image.jpg
+!/www/image/no_image.jpg
 
 # Image Cache Files
-/upload/image/cache/*
-!/upload/image/cache/index.html
+/www/image/cache/*
+!/www/image/cache/index.html
 
 # System Cache Files
-/upload/system/storage/cache/*
-!/upload/system/storage/cache/index.html
+opencart-storage/cache/*
+!opencart-storage/cache/index.html
 
 # Modification Files
-/upload/system/storage/modification/*
-!/upload/system/storage/modification/index.html
+opencart-storage/modification/*
+!opencart-storage/modification/index.html
 
 # Templates Files
-/upload/image/templates/*
-/upload/image/templates/default.jpg
+/www/image/templates/*
+/www/image/templates/default.jpg
 
 # Download Files
-/upload/system/storage/download/*
-!/upload/system/storage/download/index.html
+opencart-storage/download/*
+!opencart-storage/download/index.html
 
 # Session Files
-/upload/system/storage/session/*
-!/upload/system/storage/session/index.html
+opencart-storage/session/*
+!opencart-storage/session/index.html
 
 # Upload Files
-/upload/system/storage/upload/*
-!/upload/system/storage/upload/index.html
+opencart-storage/www/*
+!opencart-storage/www/index.html
 
 # Flags 
 # remove sharp char if you want to add flags to gitignore
-# /upload/flags/*
+# /www/flags/*
 
 # Log Files
-/upload/system/storage/logs/*
-!/upload/system/storage/logs/index.html
+opencart-storage/logs/*
+!opencart-storage/logs/index.html
 
 # If you want to ignore install file use following lines [on development mode]
-# /upload/backup.install/*
-# /upload/install/*
+# /www/backup.install/*
+# /www/install/*
 
 # Ignore all vendor files included by composer and the lock file
 /tests/phpunit/vendor/*
@@ -55,4 +55,3 @@
 
 # IDE Project files
 /.idea
-upload/.idea/workspace.xml
